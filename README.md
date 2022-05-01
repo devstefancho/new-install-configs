@@ -6,8 +6,9 @@ curl -OL https://raw.githubusercontent.com/<username>/<repo-name>/<branch-name>/
 ```
 
 ## Example
+Raw 파일의 url을 입력해야합니다.
 ```
-curl -OL https://github.com/devstefancho/new-install-configs/blob/main/.zshrc
+curl -OL https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.zshrc
 ```
 
 | option | desc |
