@@ -1,0 +1,8 @@
+inoremap jk <ESC>
+
+vnoremap <leader>p "_dP
+
+nnoremap <Leader>n :noh<CR>
+nnoremap Y y$
+
+set scrolloff=999

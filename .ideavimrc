@@ -1,0 +1,19 @@
+set rnu
+set nu
+set hlsearch
+set scrolloff=3
+set clipboard=unnamed
+set scrolloff=999
+
+let mapleader = " "
+
+imap jk <ESC>
+vmap <leader>p "_dP
+nnoremap <Leader>n :noh<CR>
+
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vmap <A-j> :m '>+1<CR>gv=gv
+vmap <A-k> :m '<-2<CR>gv=gv
