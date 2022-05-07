@@ -47,7 +47,7 @@ vim .vimrc
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
-[.config/nvim을 다운로드 받았다면](##download-single-directory), 아래와 같이 PlugInstall을 합니다.
+[.config/nvim을 다운로드 받았다면](#download-single-directory), 아래와 같이 PlugInstall을 합니다.
 ```
 nvim .config/nvim/init.vim # init.vim에서 :PlugInstall
 ```
