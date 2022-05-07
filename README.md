@@ -25,6 +25,34 @@ curl -o ~/.zshrc --create-dirs \
   https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.zshrc
 ```
 
+## vim-plug 설치하기
+[여기](https://github.com/junegunn/vim-plug#installation)를 참고
+
+### vim에서 vim-plug 설치
+```shell
+# vim-plug 설치하기
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# vimrc 다운로드
+curl -o ~/.vimrca --create-dirs \
+  https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.vimrc
+
+# vimrc에서 :PlugInstall
+vim .vimrc
+```
+
+### neovim에서 vim-plug 설치
+```
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+[.config/nvim을 다운로드 받았다면](./README.md##download-single-directory), 아래와 같이 PlugInstall을 합니다.
+```
+nvim .config/nvim/init.vim # init.vim에서 :PlugInstall
+```
+
+
 ## Explain Command
 
 use `\` for new line
