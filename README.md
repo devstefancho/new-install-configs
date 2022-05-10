@@ -37,10 +37,10 @@ curl -o ~/.vimrc_vscode --create-dirs \
   https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.vimrc_vscode
 ```
 
-### copy .ideavim
+### copy .ideavimrc
 ```
-curl -o ~/.ideavim --create-dirs \
-  https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.ideavim
+curl -o ~/.ideavimrc --create-dirs \
+  https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.ideavimrc
 ```
 
 ## vim-plug 설치하기
