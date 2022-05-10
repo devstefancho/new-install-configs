@@ -16,13 +16,31 @@ curl -o ~/<your_directory>/<file_name> --create-dirs \
   https://raw.githubusercontent.com/<username>/<repo-name>/<branch-name>/path/to/file
 ```
 
-## Example
+## Download Dot files
 Raw 파일의 url을 입력해야합니다.
 
 ### copy .zshrc
 ```
 curl -o ~/.zshrc --create-dirs \
   https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.zshrc
+```
+
+### copy .vimrc
+```
+curl -o ~/.vimrc --create-dirs \
+  https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.vimrc
+```
+
+### copy .vimrc_vscode
+```
+curl -o ~/.vimrc_vscode --create-dirs \
+  https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.vimrc_vscode
+```
+
+### copy .ideavim
+```
+curl -o ~/.ideavim --create-dirs \
+  https://raw.githubusercontent.com/devstefancho/new-install-configs/main/.ideavim
 ```
 
 ## vim-plug 설치하기
